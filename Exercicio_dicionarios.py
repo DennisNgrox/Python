@@ -23,7 +23,7 @@ for i in range(0, 3):
         print(f'Média é igual a {media}')
         print(f'Situação igual a {aprovado}')
 
-    lista.append(dic.copy(D))
+    lista.append(dic.copy())
 
 
 print(lista)
