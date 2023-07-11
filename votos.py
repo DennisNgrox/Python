@@ -9,4 +9,4 @@ def voto(a):
         return f'Com {idade} anos Não pode Votar'
 
     
-print(voto(int(input('Qual seu ano de nascimento: '))))
+print(voto(int(input('Digite seu ano de nascimento: '))))
