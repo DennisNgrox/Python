@@ -1,5 +1,7 @@
+from datetime import date
+
 def voto(a):
-    idade = 2023 - a 
+    idade = date.today().year - a 
     return idade
 
     
