@@ -10,7 +10,7 @@ def somar(number):
    return number
 
 
-resultado = list(map(somar, valores))
+resultado = list(map(somar, valores)) # or filter
 
 dicionario = dict()
 lista = list()
