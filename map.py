@@ -1,8 +1,25 @@
-def nome(nome):
-    return f'Oi {nome}'
+valores = [
+    1000,
+    2000,
+    3000,
+    4000
+]
 
-lista = ['a', 'b', 'c']
+def somar(number):
+   number += number
+   return number
 
-nomes = list(map(nome, lista)) ## função map adiciona os valores da lista na função "nome"
 
-print(nomes)
+resultado = list(map(somar, valores))
+
+dicionario = dict()
+lista = list()
+
+dicionario['valor'] = resultado
+
+
+for i in range(len(valores)):
+   dicionario['valor'] = valores[i]
+   lista.append(dicionario)
+
+print(lista)
