@@ -1,0 +1,34 @@
+{
+  "jsonrpc": "2.0",
+  "result": [
+    {
+      "auditid": "testeid",
+      "userid": "13",
+      "username": "teste",
+      "clock": "1690195876",
+      "ip": "10.teste.0.4",
+      "action": "1",
+      "resourcetype": "5",
+      "resourceid": "105",
+      "resource_cuid": "0",
+      "resourcename": "Teste2",
+      "recordsetid": "teste",
+      "details": "{\"action.status\":[\"update\",\"1\",\"0\"]}"
+    },
+    {
+      "auditid": "teste",
+      "userid": "13",
+      "username": "teste",
+      "clock": "1690195874",
+      "ip": "10.teste.0.4",
+      "action": "1",
+      "resourcetype": "5",
+      "resourceid": "105",
+      "resource_cuid": "0",
+      "resourcename": "Teste2",
+      "recordsetid": "teste",
+      "details": "{\"action.status\":[\"update\",\"0\",\"1\"]}"
+    }
+  ],
+  "id": 1
+}
